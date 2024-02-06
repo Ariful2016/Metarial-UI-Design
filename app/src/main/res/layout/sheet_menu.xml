@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/spacing_medium"
+        android:paddingTop="@dimen/spacing_large"
+        android:paddingRight="@dimen/spacing_medium"
+        android:paddingBottom="@dimen/spacing_large">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/lyt_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/spacing_xmedium"
+                android:paddingBottom="@dimen/spacing_xmedium">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_search" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:text="Search"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/grey_20"
+                    app:fontFamily="sans-serif-medium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyt_notification"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/spacing_xmedium"
+                android:paddingBottom="@dimen/spacing_xmedium">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_notifications" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:text="Notification"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/grey_20"
+                    app:fontFamily="sans-serif-medium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyt_download"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/spacing_xmedium"
+                android:paddingBottom="@dimen/spacing_xmedium">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_move_to_inbox" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:text="Download"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/grey_20"
+                    app:fontFamily="sans-serif-medium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyt_favorite"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/spacing_xmedium"
+                android:paddingBottom="@dimen/spacing_xmedium">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_favorite_border" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:text="Favorite"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/grey_20"
+                    app:fontFamily="sans-serif-medium" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/lyt_tags"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/spacing_xmedium"
+                android:paddingBottom="@dimen/spacing_xmedium">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_tabs" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:text="All Tags"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/grey_20"
+                    app:fontFamily="sans-serif-medium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyt_category"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/spacing_xmedium"
+                android:paddingBottom="@dimen/spacing_xmedium">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_dns" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:text="Category"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/grey_20"
+                    app:fontFamily="sans-serif-medium" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/spacing_mlarge"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:layout_marginRight="@dimen/spacing_mlarge"
+            android:layout_marginBottom="@dimen/spacing_large"
+            android:background="@color/grey_5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/lyt_setting"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/spacing_xmedium"
+                android:paddingBottom="@dimen/spacing_xmedium">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_settings" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:text="Settings"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/grey_20"
+                    app:fontFamily="sans-serif-medium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyt_more_app"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/spacing_xmedium"
+                android:paddingBottom="@dimen/spacing_xmedium">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_widgets" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:text="More Apps"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/grey_20"
+                    app:fontFamily="sans-serif-medium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyt_about"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/spacing_xmedium"
+                android:paddingBottom="@dimen/spacing_xmedium">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_error_outline" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:text="About"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/grey_20"
+                    app:fontFamily="sans-serif-medium" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

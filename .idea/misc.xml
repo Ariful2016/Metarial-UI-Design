@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_about_app.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_about_app_simple.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_about_app_simple_blue.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_about_company.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_about_company_card.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_article_card.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_article_details.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_article_food.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_article_food_review.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_article_medium.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_article_medium_dark.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_article_simple.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_article_stepper.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_navigation_article.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_navigation_basic.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_navigation_dark.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_navigation_icon.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_navigation_light.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_navigation_main.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_navigation_map_blue.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_navigation_primary.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_navigation_shifting.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_navigation_shop.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_navigation_small.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_sheet_basic.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_sheet_filter.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_sheet_floating.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_sheet_full.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_sheet_list.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_sheet_map.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_sheet_menu.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_button_basic.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_button_fab_middle.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_button_fab_more.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_button_in_utilities.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_button_toggle_basic.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_card_basic.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_card_checkable.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_card_overlaps.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_card_timeline.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_card_wizard.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_card_wizard_light.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_card_wizard_overlap.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_chat_bbm.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_chat_facebook.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_dialog_add_post.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_dialog_add_review.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_form_add_project.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_form_add_project_blue.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_form_address.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_form_text_area.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_list_basic.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_login_big_image.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/dialog_achievement_level.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/dialog_achievement_run.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/dialog_add_post.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/dialog_add_review.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/dialog_color_picker.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/dialog_contact_designer.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/dialog_contact_image.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/dialog_header_news.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/fragment_shipping.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_article_stepper.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_card_view_img.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_chat_bbm_you.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_chat_facebook_you.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_chat_whatsapp_me.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_drag.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_grid_image_sectioned.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_menu_divider.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_music_song.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_news_horizontal.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_news_image.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_notification.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_people.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_people_chat.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_people_contacts.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_people_left.xml" value="0.32916666666666666" />
+        <entry key="..\:/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/sheet_basic.xml" value="0.32916666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_about_app.xml" value="0.22" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_about_app_simple.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_about_dialog_main_action.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_article_book_review.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_article_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_navigation_article.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_navigation_basic.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_navigation_dark.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_navigation_icon.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_navigation_light.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_bottom_navigation_light_simple.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_button_fab_middle.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_button_toggle_basic.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_card_basic.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_card_checkable.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_chat_bbm.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_chat_facebook.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_chat_telegram.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_chat_whatsapp.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_chip_basic.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_chip_tag.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_dashboard_courses_progress.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_dashboard_pay_bill.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_dashboard_wallet.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_dashboard_wallet_green.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_dialog_add_post.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_dialog_contact_us.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_dialog_menu_payment.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_form_add_project.xml" value="0.25" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_form_add_project_blue.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_form_address.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_form_ecommerce.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_form_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_form_profile_data.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_form_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_form_signup_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_grid_albums.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_grid_caller.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_grid_two_line.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_login_big_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_login_card_light.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_login_card_overlap.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_login_image_teal.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_login_simple_dark.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_login_simple_green.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_login_simple_light.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_menu_drawer_admin.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_menu_drawer_filter.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_menu_drawer_mail.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_menu_drawer_news.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_menu_drawer_no_icon.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_menu_drawer_simple_dark.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_menu_drawer_white.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_menu_drawer_white_progress.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_menu_overflow_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_menu_overflow_toolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_no_item_search.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_notifications.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_payment_card_collections.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_payment_card_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_payment_form.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_payment_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_payment_success_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_picker_date_light.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_player_music_album_circle.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_player_music_album_dark.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_player_music_album_grid.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_player_music_album_simple.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_player_music_basic.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_player_video_basic.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_player_video_simple.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_profile_card_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_profile_circle_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_profile_gallery.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_profile_gallery_two.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_shopping_cart_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_shopping_cart_card_dark.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_shopping_cart_simple.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_shopping_category_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_shopping_category_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_shopping_category_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_shopping_checkout_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/activity_webview.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/fragment_music_album.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/fragment_music_song.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/include_content_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/include_drawer_header_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_card_payment.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_card_view_img.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_chat_facebook_you.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_chat_telegram_me.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_chat_whatsapp_me.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_chat_whatsapp_telegram_you.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_menu_search.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/layout/item_notification.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/menu/menu_chat_facebook.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/menu/menu_chat_whatsapp.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/menu/menu_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/menu/menu_navigation_drawer_mail.xml" value="0.20416666666666666" />
+        <entry key="..\:/creative IT/Premium Material/MaterialX/MaterialX/app/src/main/res/menu/menu_notif_setting.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

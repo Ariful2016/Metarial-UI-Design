@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.material.collections"
+    tools:ignore="GoogleAppIndexingWarning">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+
+    <application
+        android:name="com.material.collections.data.ThisApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.material.collections.activity.bottomsheet.BottomSheetMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.bottomsheet.BottomSheetFilter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.slider.SliderRange"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.card.CardCheckable"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.button.FabExtend"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.toolbar.ToolbarBottomScroll"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.toolbar.ToolbarBottomFab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.toolbar.ToolbarBottomBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.button.ButtonToggleBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.article.ArticleBookReview"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.article.ArticleDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dashboard.DashboardTravelPackage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dashboard.DashboardCoursesProgress"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.login.LoginBigImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.timeline.TimelineCard"
+            android:screenOrientation="portrait" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" /> <!-- Add Google Map Library -->
+        <uses-library android:name="com.google.android.maps" /> <!-- Google API Key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <activity
+            android:name="com.material.collections.activity.ActivityWebView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.MainMenu"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.material.collections.activity.bottomnavigation.BottomNavigationBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.bottomnavigation.BottomNavigationShifting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.bottomsheet.BottomSheetBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.bottomsheet.BottomSheetList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.button.ButtonBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.card.CardBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.chip.ChipBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dialog.DialogBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.expansionpanel.ExpansionPanelBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.gridlist.GridBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.list.ListBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.picker.PickerTimeDark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.progressactivity.ProgressBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.slider.SliderLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.slider.SliderDark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.snackbartoast.SnackbarToastBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.stepper.StepperText"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.tabs.TabsBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.form.FormLogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.toolbar.ToolbarBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.button.FabMiddle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.button.ButtonInUtilities"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.card.CardTimeline"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dialog.DialogFullscreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dialog.DialogCustom"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.expansionpanel.ExpansionPanelTicket"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.expansionpanel.ExpansionPanelInvoice"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.gridlist.GridSingleLine"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.gridlist.GridSectioned"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.list.ListSectioned"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.list.ListExpand"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.list.ListDrag"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.list.ListSwipe"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.list.ListAnimation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.menu.MenuDrawerNews"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.menu.MenuDrawerMail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.menu.MenuDrawerSimpleLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.menu.MenuDrawerSimpleDark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.menu.MenuDrawerNoIcon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.picker.PickerDateLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.picker.PickerDateDark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.picker.PickerTimeLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.progressactivity.ProgressPullRefresh"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.progressactivity.ProgressOnScroll"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.progressactivity.ProgressLinearCenter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.slider.SliderColorPicker"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.snackbartoast.SnackbarAndFab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.stepper.StepperVertical"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.stepper.StepperProgress"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.stepper.StepperWizardLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.tabs.TabsIcon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.tabs.TabsTextIcon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.tabs.TabsLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.tabs.TabsStore"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.toolbar.ToolbarCollapse"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.toolbar.ToolbarCollapsePin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.form.FormProfileData"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.form.FormWithIcon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.tabs.TabsIconLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.tabs.TabsIconStack"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.stepper.StepperDots"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.stepper.StepperWizardColor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.progressactivity.ProgressCircleCenter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.progressactivity.ProgressLinearTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.picker.PickerColor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.picker.PickerLocation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.menu.MenuOverflowToolbar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.menu.MenuOverflowList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.list.ListMultiSelection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.gridlist.GridTwoLine"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.gridlist.GridAlbums"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dialog.DialogCustomInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dialog.DialogCustomWarning"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dialog.DialogCustomLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dialog.DialogAddPost"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dialog.DialogCustomDark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dialog.DialogAddReview"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.chip.ChipTag"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.card.CardOverlap"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.card.CardWizard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.card.CardWizardLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.button.FabMore"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.button.FabMoreText"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.bottomsheet.BottomSheetMap"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.bottomsheet.BottomSheetFloating"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.bottomsheet.BottomSheetFull"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.bottomnavigation.BottomNavigationLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.toolbar.ToolbarLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.toolbar.ToolbarDark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.form.FormTextArea"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.tabs.TabsScroll"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.tabs.TabsDark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.form.FormSignUp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.gridlist.GridCaller"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.bottomnavigation.BottomNavigationDark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.bottomnavigation.BottomNavigationIcon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.card.CardWizardOverlap"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfilePolygon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfilePurple"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileRed"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileBlueAppbar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileImageAppbar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileDrawerImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileGallery"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileGalleryTwo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileDrawerSimple"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.noitem.NoItemArchived"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.noitem.NoItemSearch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.noitem.NoItemInternetIcon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.noitem.NoItemInternetImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.noitem.NoItemBgCity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.noitem.NoItemBgCactus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.noitem.NoItemTabs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.search.SearchToolbarLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.search.SearchToolbarDark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.search.SearchPrimary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.search.SearchStore"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.search.SearchCity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.search.SearchPrimaryBg"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.search.SearchHistoryCard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.shopping.ShoppingCategoryList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.tabs.TabsRound"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.shopping.ShoppingCategoryCard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.shopping.ShoppingCategoryImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.shopping.ShoppingCheckoutCard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.shopping.ShoppingProductGrid"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.shopping.ShoppingProductDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.shopping.ShoppingSubCategoryTabs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.shopping.ShoppingProductAdvDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.sliderimage.SliderImageHeader"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.sliderimage.SliderImageHeaderAuto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.sliderimage.SliderImageCard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.sliderimage.SliderImageCardAuto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.player.PlayerMusicBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.player.PlayerMusicLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.player.PlayerMusicAlbumDark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.player.PlayerMusicAlbumCircle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.player.PlayerMusicAlbumSimple"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.player.PlayerMusicSongList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.player.PlayerMusicTabs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.player.PlayerMusicTabsIcon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.player.PlayerMusicAlbumGrid"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.timeline.TimelineFeed"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.timeline.TimelinePath"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.timeline.TimelineTwitter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.timeline.TimelineSimple"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.timeline.TimelineDotCard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.settings.SettingProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.settings.SettingSectioned"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.settings.SettingFlat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.settings.SettingProfileLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.verification.VerificationPhone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.verification.VerificationCode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.verification.VerificationHeader"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.verification.VerificationImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.verification.VerificationOrange"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.verification.VerificationBlue"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.login.LoginSimpleLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.login.LoginSimpleGreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.login.LoginImageTeal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.login.LoginCardLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.login.LoginCardOverlap"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.login.LoginSimpleDark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.payment.PaymentProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.payment.PaymentForm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.payment.PaymentCardCollections"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.payment.PaymentCardDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.payment.PaymentSuccessDialog"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.progressactivity.ProgressDotsBounce"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.progressactivity.ProgressDotsFade"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.progressactivity.ProgressDotsGrow"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileFabMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileCardList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.bottomnavigation.BottomNavigationPrimary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.bottomnavigation.BottomNavigationMapBlue"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dashboard.DashboardGridFab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dashboard.DashboardStatistics"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.player.PlayerMusicGenre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.player.PlayerMusicGenreImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.player.PlayerMusicGenreLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dashboard.DashboardPayBill"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dashboard.DashboardFlight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.article.ArticleMedium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.article.ArticleMediumDark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.article.ArticleBigHeader"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.article.ArticleStepper"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.article.ArticleFood"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.article.ArticleSimple"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.article.ArticleCard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.article.ArticleFoodReview"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.shopping.ShoppingCartSimple"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.shopping.ShoppingCartCard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.shopping.ShoppingCartCardDark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.shopping.ShoppingCheckoutStep"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.shopping.ShoppingCheckoutTimeline"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.shopping.ShoppingCheckoutOnePage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dialog.DialogGDPRBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dialog.DialogTermOfServices"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dialog.DialogHeader"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dialog.DialogImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.about.AboutDialogMainAction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.about.AboutCompany"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.about.AboutCompanyImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.about.AboutCompanyCard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.about.AboutApp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.about.AboutAppSimple"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.about.AboutAppSimpleBlue"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.player.PlayerVideoBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.player.PlayerVideoSimple"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.search.SearchFilterHotel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.search.SearchFilterProduct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.search.SearchFilterProperty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dashboard.DashboardFinance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dashboard.DashboardCryptocurrency"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dashboard.DashboardWallet"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dashboard.DashboardWalletGreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.bottomnavigation.BottomNavigationLightSimple"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileCardOverlap"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileCardHeader"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileCardHeaderImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileSkills"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileRating"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileFreelancer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileFormal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.form.FormAddress"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.form.FormCheckout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.form.FormSignupImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.form.FormSignupImageOutline"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.form.FormEcommerce"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.form.FormSignupImageCard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.form.FormSignupCardStack"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.form.FormSignupCard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.form.FormSignupDark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.snackbartoast.SnackbarCustom"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.snackbartoast.ToastCustom"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.chat.ChatWhatsapp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.chat.ChatBBM"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.chat.ChatFacebook"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.chat.ChatTelegram"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.shopping.ShoppingTrackingOrder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.list.ListNewsLight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.list.ListNewsLightHorizontal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.list.ListNewsCard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.list.ListNewsImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.search.SearchEventType"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.search.SearchSuggestion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.search.SearchSuggestionRed"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.search.SearchOutlet"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.search.SearchOutletYellow"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileWallet"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dashboard.DashboardDana"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileTab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfilePink"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileWhite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileDark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dashboard.DashboardTravel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dashboard.DashboardNews"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.sliderimage.SliderSnapBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.sliderimage.SliderSnapCard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.sliderimage.SliderSnapFull"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.sliderimage.SliderSnapNews"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.form.FormInputOutlined"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.form.FormAddProject"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.form.FormAddProjectBlue"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.menu.MenuDrawerWhite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.menu.MenuDrawerWhiteProgress"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.menu.MenuDrawerAgri"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.menu.MenuDrawerFilter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.menu.MenuDrawerAdmin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.menu.MenuDrawerAdminDark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dialog.DialogMenuPayment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dialog.DialogAchievement"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.dialog.DialogContactUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.bottomnavigation.BottomNavigationArticle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.bottomnavigation.BottomNavigationShop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.bottomnavigation.BottomNavigationSmall"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.bottomnavigation.BottomNavigationMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.profile.ProfileCircleImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.timeline.TimelineExplore"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.timeline.TimelineImageMix"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.material.collections.activity.timeline.TimelineImageFit"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
