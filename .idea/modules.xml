@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MaterialX.iml" filepath="$PROJECT_DIR$/.idea/modules/MaterialX.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MaterialX.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MaterialX.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Metarial-UI-Design.iml" filepath="$PROJECT_DIR$/.idea/modules/Metarial-UI-Design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Metarial-UI-Design.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Metarial-UI-Design.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Metarial-UI-Design.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Metarial-UI-Design.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Metarial-UI-Design.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Metarial-UI-Design.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Metarial-UI-Design.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Metarial-UI-Design.app.unitTest.iml" />
     </modules>
   </component>
 </project>
