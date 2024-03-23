@@ -86,7 +86,7 @@ public class AboutDialogMainAction extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse("https://codecanyon.net/user/dream_space/portfolio"));
+                i.setData(Uri.parse("https://github.com/Ariful2016/Metarial-UI-Design"));
                 startActivity(i);
             }
         });
@@ -98,17 +98,11 @@ public class AboutDialogMainAction extends AppCompatActivity {
             }
         });
 
-        ((Button) dialog.findViewById(R.id.bt_rate)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Tools.rateAction(AboutDialogMainAction.this);
-            }
-        });
 
         ((Button) dialog.findViewById(R.id.bt_portfolio)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Tools.openInAppBrowser(AboutDialogMainAction.this, "http://portfolio.dream-space.web.id/", false);
+                Tools.openInAppBrowser(AboutDialogMainAction.this, "https://ariful2016.github.io/", false);
             }
         });
 

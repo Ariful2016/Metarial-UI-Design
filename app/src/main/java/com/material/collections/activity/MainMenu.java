@@ -940,7 +940,7 @@ public class MainMenu extends AppCompatActivity {
         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close) {
             public void onDrawerOpened(View drawerView) {
-                updateCounter(nav_view);
+                //updateCounter(nav_view);
                 super.onDrawerOpened(drawerView);
             }
         };
@@ -950,13 +950,7 @@ public class MainMenu extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(final MenuItem item) {
                 int item_id = item.getItemId();
-                if (item_id == R.id.action_portfolio) {
-                    Tools.openInAppBrowser(MainMenu.this, "http://portfolio.dream-space.web.id/", false);
-                } else if (item_id == R.id.action_notifications) {
-
-                } else if (item_id == R.id.action_rate) {
-                    Tools.rateAction(MainMenu.this);
-                } else if (item_id == R.id.action_about) {
+               if (item_id == R.id.action_about) {
                     showDialogAbout();
                 }
                 return true;
@@ -978,15 +972,7 @@ public class MainMenu extends AppCompatActivity {
         });
     }
 
-    private void updateCounter(NavigationView nav) {
-        Menu m = nav.getMenu();
-        View drw_notif_badge = (m.findItem(R.id.action_notifications).getActionView().findViewById(R.id.notif_badge));
-        if (notification_count == 0) {
-            drw_notif_badge.setVisibility(View.GONE);
-        } else {
-            drw_notif_badge.setVisibility(View.VISIBLE);
-        }
-    }
+
 
     @Override
     protected void onResume() {
@@ -1032,7 +1018,7 @@ public class MainMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse("https://codecanyon.net/user/dream_space/portfolio"));
+                i.setData(Uri.parse("https://github.com/Ariful2016/Metarial-UI-Design"));
                 startActivity(i);
             }
         });
@@ -1044,17 +1030,11 @@ public class MainMenu extends AppCompatActivity {
             }
         });
 
-        ((Button) dialog.findViewById(R.id.bt_rate)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Tools.rateAction(MainMenu.this);
-            }
-        });
 
         ((Button) dialog.findViewById(R.id.bt_portfolio)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Tools.openInAppBrowser(MainMenu.this, "http://portfolio.dream-space.web.id/", false);
+                Tools.openInAppBrowser(MainMenu.this, "https://ariful2016.github.io/", false);
             }
         });
 
@@ -1079,7 +1059,7 @@ public class MainMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse("https://codecanyon.net/user/dream_space/portfolio"));
+                i.setData(Uri.parse("https://github.com/Ariful2016/Metarial-UI-Design"));
                 startActivity(i);
             }
         });
