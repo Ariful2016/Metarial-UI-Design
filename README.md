@@ -40,5 +40,22 @@
 * Chat
 * About
 
+| **Bottom Sheet**     | **Button**           |
+| **Cards**            | **Chips**            |
+| **Dialogs**          | **Grid**             |
+| **Bottom Navigation**     | **Expansion Panels**           |
+| **Lists**            | **Menu**            |
+| **Pickers**          | **Progress & Activity**             |
+| **Sliders**     | **Snackbars & Toasts**           |
+| **Steppers**            | **Tabs**            |
+| **Form**          | **Toolbars**             |
+| **Profile**     | **Player**           |
+| **Timeline**            | **Shopping**            |
+| **Search Page**          | **Slider Image**             |
+| **Settings**            | **Verification**            |
+| **Login**          | **Paymente**             |
+| **Dashboard**            | **Article**            |
+| **Chat**          | **About**             |
+
 ## UI Design
 ![Foody](https://github.com/Ariful2016/Foody/assets/69759406/fa0a59ff-89c2-48e4-8f9e-db61dee5f537)
