@@ -6,22 +6,38 @@
 
 ## Metarial UI
 
-* Bottom Navigation     * Bottom Sheet
-* Buttons               * Cards
-* Chips                 * Dialogs
-* Expansion Panels      * Grid
-* Lists                 * Menu
-* Pickers               * Progress & Activity
-* Sliders               * Snackbars & Toasts
-* Steppers              * Tabs
-* Form                  * Toolbars
-* Profile               * No Item Page
-* Player                * Timeline
-* Shopping              * Search Page
-* Slider Image          * Settings
-* Verification          * Login
-* Payment               * Dashboard
-* Article               * Chat
+* Bottom Navigation
+* Bottom Sheet
+* Buttons
+* Cards
+* Chips
+* Dialogs
+* Expansion Panels
+* Grid
+* Lists
+* Menu
+* Pickers
+* Progress & Activity
+* Sliders
+* Snackbars & Toasts
+* Steppers
+* Tabs
+* Form
+* Toolbars
+* Profile
+* No Item Page
+* Player
+* Timeline
+* Shopping
+* Search Page
+* Slider Image
+* Settings
+* Verification
+* Login
+* Payment
+* Dashboard
+* Article
+* Chat
 * About
 
 ## UI Design
