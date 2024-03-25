@@ -817,15 +817,6 @@ public class MainMenu extends AppCompatActivity {
         items.add(new Item(30009, art.Text, "Details", MnType.SUB, ArticleDetails.class));
         items.add(new Item(30010, art.Text, "Book Review", MnType.SUB, ArticleBookReview.class));
 
-        Item ab = new Item(31000, "About", R.drawable.ic_perm_device_info, MnType.HEAD);
-        items.add(ab);
-        items.add(new Item(31001, ab.Text, "App", MnType.SUB, AboutApp.class));
-        items.add(new Item(31002, ab.Text, "App Simple", MnType.SUB, AboutAppSimple.class));
-        items.add(new Item(31003, ab.Text, "App Simple Blue", MnType.SUB, AboutAppSimpleBlue.class));
-        items.add(new Item(31004, ab.Text, "Company", MnType.SUB, AboutCompany.class));
-        items.add(new Item(31005, ab.Text, "Company Image", MnType.SUB, AboutCompanyImage.class));
-        items.add(new Item(31006, ab.Text, "Company Card", MnType.SUB, AboutCompanyCard.class));
-        items.add(new Item(31007, ab.Text, "Dialog Main Action", MnType.SUB, AboutDialogMainAction.class));
 
         Item cht = new Item(32000, "Chat", R.drawable.ic_chat, MnType.HEAD);
         items.add(cht);
